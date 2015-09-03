@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="yocto" fetch="git://git.yoctoproject.org/" />
+
+  <default revision="master"
+           remote="yocto"
+           sync-j="4" />
+
+  <project path="yocto"                       name="poky"        />
+</manifest>
